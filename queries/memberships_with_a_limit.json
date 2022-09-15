@@ -1,0 +1,18 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "tableName": "acquisitions_memberships",
+      "columnFilters": [],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": "10"
+    }
+  ],
+  "META": {
+    "displayName": "memberships with a limit",
+    "autoRun": true,
+    "creator": "msl321",
+    "created": "2022-09-15T20:26:07.717Z"
+  }
+}
