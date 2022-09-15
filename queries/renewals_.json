@@ -1,0 +1,34 @@
+{
+  "tables": [
+    {
+      "schema": "public",
+      "tableName": "circulation_loans",
+      "columnFilters": [
+        {
+          "key": "renewal_count",
+          "value": "1"
+        }
+      ],
+      "showColumns": [
+        "action",
+        "item_id",
+        "due_date"
+      ],
+      "orderBy": [
+        {
+          "direction": "asc",
+          "nulls": "end",
+          "key": "due_date"
+        }
+      ],
+      "limit": 100
+    }
+  ],
+  "META": {
+    "displayName": "renewals ",
+    "autoRun": true,
+    "creator": "lu_admin",
+    "created": "2022-09-15T14:52:25.791Z",
+    "comment": "testing a custom query"
+  }
+}
