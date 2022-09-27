@@ -1,0 +1,35 @@
+{
+  "tables": [
+    {
+      "schema": "local",
+      "columnFilters": [
+        {
+          "key": "note",
+          "value": "Social Fiction Collection"
+        }
+      ],
+      "showColumns": [
+        "call_number",
+        "title",
+        "locations",
+        "note",
+        "instance_hrid"
+      ],
+      "orderBy": [
+        {
+          "direction": "asc",
+          "nulls": "end",
+          "key": "call_number"
+        }
+      ],
+      "limit": "1000",
+      "tableName": "instance_notes"
+    }
+  ],
+  "META": {
+    "displayName": "SC - Social Fiction Collection",
+    "autoRun": true,
+    "creator": "lim213",
+    "created": "2022-09-27T16:27:27.216Z"
+  }
+}
