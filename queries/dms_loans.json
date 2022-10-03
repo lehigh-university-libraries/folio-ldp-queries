@@ -1,0 +1,41 @@
+{
+  "tables": [
+    {
+      "schema": "folio_reporting",
+      "columnFilters": [
+        {
+          "key": "checkin_service_point_name",
+          "value": "Digital Media Studio"
+        }
+      ],
+      "showColumns": [
+        "item_status",
+        "loan_status",
+        "loan_date",
+        "loan_return_date",
+        "loan_policy_name",
+        "patron_group_name",
+        "user_id",
+        "barcode",
+        "item_level_call_number",
+        "material_type_name"
+      ],
+      "orderBy": [
+        {
+          "direction": "desc",
+          "nulls": "end",
+          "key": "loan_date"
+        }
+      ],
+      "limit": "1000",
+      "tableName": "loans_items"
+    }
+  ],
+  "META": {
+    "displayName": "dms loans",
+    "autoRun": true,
+    "creator": "mac609",
+    "created": "2022-10-03T20:45:36.320Z",
+    "comment": "dms loans"
+  }
+}
