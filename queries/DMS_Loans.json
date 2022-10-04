@@ -27,7 +27,7 @@
           "key": "loan_date"
         }
       ],
-      "limit": "1000",
+      "limit": "5000",
       "tableName": "loans_items"
     }
   ],
