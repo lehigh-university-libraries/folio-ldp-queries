@@ -1,0 +1,21 @@
+{
+  "tables": [
+    {
+      "schema": "local",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": "1000",
+      "tableName": "circulation_loan_history"
+    }
+  ],
+  "META": {
+    "displayName": "Circs by Patron Group - October 2022",
+    "autoRun": true,
+    "creator": "lim213",
+    "created": "2022-10-28T12:04:33.624Z",
+    "comment": "October 2022"
+  }
+}
