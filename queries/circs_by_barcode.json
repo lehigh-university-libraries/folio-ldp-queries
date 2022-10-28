@@ -1,0 +1,23 @@
+{
+  "tables": [
+    {
+      "schema": "folio_reporting",
+      "columnFilters": [
+        {
+          "key": "barcode"
+        }
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": "1000",
+      "tableName": "loans_items"
+    }
+  ],
+  "META": {
+    "displayName": "Circs by barcode",
+    "autoRun": true,
+    "creator": "lim213",
+    "created": "2022-10-28T12:27:22.152Z",
+    "comment": "user inputs barcode"
+  }
+}
