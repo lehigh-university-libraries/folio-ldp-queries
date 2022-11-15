@@ -1,0 +1,20 @@
+{
+  "tables": [
+    {
+      "schema": "local",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": "1000",
+      "tableName": "circulation_loans"
+    }
+  ],
+  "META": {
+    "displayName": "Circs by Patron Group",
+    "autoRun": true,
+    "creator": "lim213",
+    "created": "2022-11-15T15:38:10.991Z"
+  }
+}
