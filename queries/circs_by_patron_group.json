@@ -1,0 +1,21 @@
+{
+  "tables": [
+    {
+      "schema": "local",
+      "columnFilters": [
+        {}
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": "1000",
+      "tableName": "circulation_loans"
+    }
+  ],
+  "META": {
+    "displayName": "Circs by Patron Group",
+    "autoRun": true,
+    "creator": "lim213",
+    "created": "2022-11-15T15:41:03.328Z",
+    "comment": "Beginning FY 2023 to 11/15/2022"
+  }
+}
