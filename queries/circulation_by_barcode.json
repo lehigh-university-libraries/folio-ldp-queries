@@ -1,0 +1,23 @@
+{
+  "tables": [
+    {
+      "schema": "folio_reporting",
+      "columnFilters": [
+        {
+          "key": "barcode"
+        }
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": "1000",
+      "tableName": "loans_items"
+    }
+  ],
+  "META": {
+    "displayName": "Circulation by Barcode",
+    "autoRun": true,
+    "creator": "lim213",
+    "created": "2022-12-05T17:40:55.829Z",
+    "comment": "Scan in barcode. The number of rows is the number of times the item circulated"
+  }
+}
