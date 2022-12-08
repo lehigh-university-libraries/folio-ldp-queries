@@ -1,0 +1,39 @@
+{
+  "tables": [
+    {
+      "schema": "local",
+      "columnFilters": [
+        {
+          "key": "fund_code",
+          "value": "BHIST"
+        }
+      ],
+      "showColumns": [
+        "fund_code",
+        "loan_date",
+        "title",
+        "location_name",
+        "effective_call_number_components__call_number",
+        "item_status",
+        "item_table_barcode",
+        "patron_group_name"
+      ],
+      "orderBy": [
+        {
+          "direction": "asc",
+          "nulls": "end",
+          "key": "title"
+        }
+      ],
+      "limit": "1000",
+      "tableName": "circulation_by_fund_code"
+    }
+  ],
+  "META": {
+    "displayName": "Circulation by Fund Code BHIST",
+    "autoRun": true,
+    "creator": "lim213",
+    "created": "2022-12-08T21:18:34.531Z",
+    "comment": "FY 2023. If the loan_date cell is empty then that item did not circulate "
+  }
+}
