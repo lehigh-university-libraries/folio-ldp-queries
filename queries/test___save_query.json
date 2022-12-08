@@ -1,0 +1,23 @@
+{
+  "tables": [
+    {
+      "schema": "folio_reporting",
+      "columnFilters": [
+        {
+          "key": "barcode",
+          "value": "39151008783835"
+        }
+      ],
+      "showColumns": [],
+      "orderBy": [],
+      "limit": "1000",
+      "tableName": "loans_items"
+    }
+  ],
+  "META": {
+    "displayName": "test - save query",
+    "autoRun": true,
+    "creator": "lim213",
+    "created": "2022-12-08T19:33:20.268Z"
+  }
+}
