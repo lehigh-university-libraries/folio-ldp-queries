@@ -1,0 +1,54 @@
+{
+  "tables": [
+    {
+      "schema": "local",
+      "columnFilters": [
+        {
+          "key": "location_name",
+          "value": "E",
+          "op": ">"
+        },
+        {
+          "key": "location_name",
+          "op": "<",
+          "value": "G"
+        },
+        {
+          "key": "effective_call_number_components__call_number",
+          "op": ">",
+          "value": "899.9"
+        },
+        {
+          "key": "effective_call_number_components__call_number",
+          "op": "<",
+          "value": "999.99"
+        }
+      ],
+      "showColumns": [
+        "item_table_barcode",
+        "effective_call_number_components__call_number",
+        "location_name",
+        "loan_date",
+        "patron_group_name",
+        "item_status",
+        "title"
+      ],
+      "orderBy": [
+        {
+          "direction": "asc",
+          "nulls": "end",
+          "key": "effective_call_number_components__call_number"
+        }
+      ],
+      "limit": "1000",
+      "tableName": "circulation_by_call_number"
+    }
+  ],
+  "META": {
+    "displayName": "Circulation by Call Number - 900s - Fairchild",
+    "autoRun": true,
+    "creator": "lim213",
+    "created": "2022-12-19T21:16:03.603Z",
+    "comment": "If loan date cell is empty then that book did not circulate. The number circ = the number of rows per barcode with a loan_date value."
+  }
+}
